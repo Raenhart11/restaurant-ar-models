@@ -1,7 +1,0 @@
-flask
-pandas
-scikit-learn
-gunicorn
-firebase-admin
-statsmodels
-prophet

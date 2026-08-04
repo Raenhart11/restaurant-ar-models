@@ -1,0 +1,5 @@
+Testing URL Prediction
+https://smart-restaurant-ml.onrender.com/api/predict
+
+GitHub
+https://github.com/fItechcorporation/smart-restaurant-ml

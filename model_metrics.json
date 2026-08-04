@@ -1,0 +1,48 @@
+{
+  "selected_model": "xgboost",
+  "selection_metric": "mae",
+  "target": "average daily menu-item units per active restaurant",
+  "unit": "menu_item_units",
+  "test_start": "2024-10-23",
+  "test_end": "2025-01-01",
+  "training_rows": 282,
+  "test_rows": 71,
+  "total_engineered_rows": 353,
+  "models": {
+    "linear_regression": {
+      "status": "ok",
+      "mae": 67.1111,
+      "rmse": 101.2124,
+      "wape": 17.2474,
+      "r2": 0.296705
+    },
+    "xgboost": {
+      "status": "ok",
+      "mae": 60.9012,
+      "rmse": 93.2534,
+      "wape": 15.6515,
+      "r2": 0.402966
+    },
+    "catboost": {
+      "status": "ok",
+      "mae": 61.2204,
+      "rmse": 92.6439,
+      "wape": 15.7335,
+      "r2": 0.410744
+    },
+    "arima": {
+      "status": "ok",
+      "mae": 85.2144,
+      "rmse": 119.2934,
+      "wape": 21.8999,
+      "r2": 0.022982
+    },
+    "prophet": {
+      "status": "ok",
+      "mae": 68.2218,
+      "rmse": 97.5031,
+      "wape": 17.5328,
+      "r2": 0.34731
+    }
+  }
+}
